@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body {
+  background-color: #EEEDED;
+  font-family: 'Open Sans', sans-serif;
+  color: rgb(13, 18, 130);
+  font-size: 17px;
+  line-height: 20px;
+}
+
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+
+.card {
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center;
+}
+.image-circle {
+  border-radius: 50%;
+}
+
+#introduction p {
+  margin-bottom: 40px;
+}
+
+.btn-blue {
+  background-color: #6B72E1;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 4px;
+}
+
+.list-inline li {
+  display: inline;
+  padding: 10px;
+}
+
+.list-inline {
+    list-style: none;
+    padding-left: 0px;
+}
+
+li {
+  height: 25px;
+  width: 25px;
+}
+
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  color: #0D1282;
+  font-size: 25px;
+  line-height: 20px;
+}
+
+h2 h3 {
+  font-family: 'Roboto', sans-serif;
+  color: #0D1282;
+  font-size: 17px;
+  line-height: 15px;
+}
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  transition: 0.5;
+  color: #D71313;
+}
+
+li:hover {
+  transition: 0.5;
+  color: #D71313;
+}
+
+.btn-blue:hover {
+  color: #F0DE36;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
